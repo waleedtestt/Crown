@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl" class="scroll-smooth dark">
   <head>
@@ -18,18 +17,20 @@
         }
       }
     </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
     <style>
       html {
-        scroll-padding-top: 100px; /* Ensures anchor links don't hide behind the navbar */
+        scroll-padding-top: 100px;
       }
       body {
         font-family: 'Cairo', sans-serif;
         overflow-x: hidden;
       }
-      /* Custom scrollbar */
+
       ::-webkit-scrollbar {
         width: 8px;
       }
@@ -37,32 +38,39 @@
         background: transparent;
       }
       ::-webkit-scrollbar-thumb {
-        background: #52525b; /* zinc-600 */
+        background: #52525b;
         border-radius: 4px;
       }
       ::-webkit-scrollbar-thumb:hover {
-        background: #d97706; /* amber-600 */
+        background: #d97706;
       }
+
       .text-glow {
         text-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
       }
     </style>
 
-<link rel="stylesheet" href="/index.css">
-  <script type="importmap">
-{
-  "imports": {
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24"
-  }
-}
-</script>
-  <script type="module" crossorigin src="/assets/index-DKejBkxj.js"></script>
-</head>
+    <!-- fixed to relative -->
+    <link rel="stylesheet" href="./index.css">
+
+    <script type="importmap">
+    {
+      "imports": {
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+        "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+        "react/": "https://aistudiocdn.com/react@^19.2.0/",
+        "react": "https://aistudiocdn.com/react@^19.2.0",
+        "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24"
+      }
+    }
+    </script>
+
+    <!-- fixed to relative -->
+    <script type="module" crossorigin src="./assets/index-DKejBkxj.js"></script>
+
+  </head>
+
   <body class="bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-white transition-colors duration-300">
     <div id="root"></div>
-</body>
+  </body>
 </html>
